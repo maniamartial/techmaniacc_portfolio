@@ -131,14 +131,17 @@
         height: auto;
         padding-bottom: 30px;
     }
+        .card {
+min-width: 100%;        }
 
     .right-content {
         padding-left: 5px;
-        margin-left: 10%;
+        margin-left: 1%;
         text-align: center;
         justify-content: center;
         justify-items: center;
         margin-top: 30px;
+        min-width: 100%;
     }
 
     .left-content-inner {
@@ -191,11 +194,16 @@
     .fa-4x {
         font-size: 3rem !important;
     }
+        .tags {
+            display: none;
+           
+        }
 }
 
 .tags {
     display: flex;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .tag {
